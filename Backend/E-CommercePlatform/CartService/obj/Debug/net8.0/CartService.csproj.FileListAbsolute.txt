@@ -1,0 +1,17 @@
+C:\E-CommercePlatform\Backend\E-CommercePlatform\CartService\bin\Debug\net8.0\CartService.deps.json
+C:\E-CommercePlatform\Backend\E-CommercePlatform\CartService\bin\Debug\net8.0\CartService.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\CartService\bin\Debug\net8.0\CartService.pdb
+C:\E-CommercePlatform\Backend\E-CommercePlatform\CartService\obj\Debug\net8.0\CartService.GeneratedMSBuildEditorConfig.editorconfig
+C:\E-CommercePlatform\Backend\E-CommercePlatform\CartService\obj\Debug\net8.0\CartService.AssemblyInfoInputs.cache
+C:\E-CommercePlatform\Backend\E-CommercePlatform\CartService\obj\Debug\net8.0\CartService.AssemblyInfo.cs
+C:\E-CommercePlatform\Backend\E-CommercePlatform\CartService\obj\Debug\net8.0\CartService.csproj.CoreCompileInputs.cache
+C:\E-CommercePlatform\Backend\E-CommercePlatform\CartService\obj\Debug\net8.0\CartService.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\CartService\obj\Debug\net8.0\refint\CartService.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\CartService\obj\Debug\net8.0\CartService.pdb
+C:\E-CommercePlatform\Backend\E-CommercePlatform\CartService\obj\Debug\net8.0\ref\CartService.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\CartService\bin\Debug\net8.0\Common.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\CartService\bin\Debug\net8.0\Database.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\CartService\bin\Debug\net8.0\Common.pdb
+C:\E-CommercePlatform\Backend\E-CommercePlatform\CartService\bin\Debug\net8.0\Database.pdb
+C:\E-CommercePlatform\Backend\E-CommercePlatform\CartService\obj\Debug\net8.0\CartService.csproj.AssemblyReference.cache
+C:\E-CommercePlatform\Backend\E-CommercePlatform\CartService\obj\Debug\net8.0\CartServ.AA4AD7E1.Up2Date

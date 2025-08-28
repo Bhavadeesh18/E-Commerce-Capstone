@@ -1,0 +1,17 @@
+C:\E-CommercePlatform\Backend\E-CommercePlatform\ProductService\bin\Debug\net8.0\ProductService.deps.json
+C:\E-CommercePlatform\Backend\E-CommercePlatform\ProductService\bin\Debug\net8.0\ProductService.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\ProductService\bin\Debug\net8.0\ProductService.pdb
+C:\E-CommercePlatform\Backend\E-CommercePlatform\ProductService\bin\Debug\net8.0\Common.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\ProductService\bin\Debug\net8.0\Database.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\ProductService\bin\Debug\net8.0\Common.pdb
+C:\E-CommercePlatform\Backend\E-CommercePlatform\ProductService\bin\Debug\net8.0\Database.pdb
+C:\E-CommercePlatform\Backend\E-CommercePlatform\ProductService\obj\Debug\net8.0\ProductService.csproj.AssemblyReference.cache
+C:\E-CommercePlatform\Backend\E-CommercePlatform\ProductService\obj\Debug\net8.0\ProductService.GeneratedMSBuildEditorConfig.editorconfig
+C:\E-CommercePlatform\Backend\E-CommercePlatform\ProductService\obj\Debug\net8.0\ProductService.AssemblyInfoInputs.cache
+C:\E-CommercePlatform\Backend\E-CommercePlatform\ProductService\obj\Debug\net8.0\ProductService.AssemblyInfo.cs
+C:\E-CommercePlatform\Backend\E-CommercePlatform\ProductService\obj\Debug\net8.0\ProductService.csproj.CoreCompileInputs.cache
+C:\E-CommercePlatform\Backend\E-CommercePlatform\ProductService\obj\Debug\net8.0\ProductS.A0FC5512.Up2Date
+C:\E-CommercePlatform\Backend\E-CommercePlatform\ProductService\obj\Debug\net8.0\ProductService.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\ProductService\obj\Debug\net8.0\refint\ProductService.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\ProductService\obj\Debug\net8.0\ProductService.pdb
+C:\E-CommercePlatform\Backend\E-CommercePlatform\ProductService\obj\Debug\net8.0\ref\ProductService.dll
