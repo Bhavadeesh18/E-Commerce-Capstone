@@ -477,3 +477,6 @@ C:\E-CommercePlatform\tests\backend tests\E-CommercePlatform.Tests\obj\Debug\net
 C:\E-CommercePlatform\tests\backend tests\E-CommercePlatform.Tests\obj\Debug\net8.0\E-CommercePlatform.Tests.pdb
 C:\E-CommercePlatform\tests\backend tests\E-CommercePlatform.Tests\obj\Debug\net8.0\E-CommercePlatform.Tests.genruntimeconfig.cache
 C:\E-CommercePlatform\tests\backend tests\E-CommercePlatform.Tests\obj\Debug\net8.0\ref\E-CommercePlatform.Tests.dll
+C:\E-CommercePlatform\tests\backend tests\E-CommercePlatform.Tests\obj\Debug\net8.0\E-CommercePlatform.Tests.sourcelink.json
+C:\E-CommercePlatform\tests\backend tests\E-CommercePlatform.Tests\bin\Debug\net8.0\Stripe.net.dll
+C:\E-CommercePlatform\tests\backend tests\E-CommercePlatform.Tests\bin\Debug\net8.0\E-CommercePlatform.xml

@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "PaymentSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{E4112DC3-6952-4555-A39C-228BB959700A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-CommercePlatform.Tests", "..\..\tests\backend tests\E-CommercePlatform.Tests\E-CommercePlatform.Tests.csproj", "{78B9022B-E4D7-418C-B2B9-952CD03A5447}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-CommercePlatform.Tests", "E-CommercePlatform.Tests\E-CommercePlatform.Tests.csproj", "{78B9022B-E4D7-418C-B2B9-952CD03A5447}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

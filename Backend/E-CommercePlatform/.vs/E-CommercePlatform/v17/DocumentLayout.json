@@ -3,17 +3,16 @@
   "WorkspaceRootPath": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78B9022B-E4D7-418C-B2B9-952CD03A5447}|..\\..\\tests\\backend tests\\E-CommercePlatform.Tests\\E-CommercePlatform.Tests.csproj|c:\\e-commerceplatform\\tests\\backend tests\\e-commerceplatform.tests\\cartcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78B9022B-E4D7-418C-B2B9-952CD03A5447}|..\\..\\tests\\backend tests\\E-CommercePlatform.Tests\\E-CommercePlatform.Tests.csproj|c:\\e-commerceplatform\\tests\\backend tests\\e-commerceplatform.tests\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78B9022B-E4D7-418C-B2B9-952CD03A5447}|..\\..\\tests\\backend tests\\E-CommercePlatform.Tests\\E-CommercePlatform.Tests.csproj|c:\\e-commerceplatform\\tests\\backend tests\\e-commerceplatform.tests\\productcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F0B2B8B-8E3D-446C-9DE1-540E786523F8}|E-CommercePlatform\\E-CommercePlatform.csproj|c:\\e-commerceplatform\\backend\\e-commerceplatform\\e-commerceplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F0B2B8B-8E3D-446C-9DE1-540E786523F8}|E-CommercePlatform\\E-CommercePlatform.csproj|solutionrelative:e-commerceplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0B2B8B-8E3D-446C-9DE1-540E786523F8}|E-CommercePlatform\\E-CommercePlatform.csproj|c:\\e-commerceplatform\\backend\\e-commerceplatform\\e-commerceplatform\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F0B2B8B-8E3D-446C-9DE1-540E786523F8}|E-CommercePlatform\\E-CommercePlatform.csproj|solutionrelative:e-commerceplatform\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73BE11A9-192E-4E44-A659-4032365B51E8}|PaymentService\\PaymentService.csproj|c:\\e-commerceplatform\\backend\\e-commerceplatform\\paymentservice\\paymentserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73BE11A9-192E-4E44-A659-4032365B51E8}|PaymentService\\PaymentService.csproj|solutionrelative:paymentservice\\paymentserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F892D7E-4B00-4F89-8EBA-C293DF591053}|Common\\Common.csproj|c:\\e-commerceplatform\\backend\\e-commerceplatform\\common\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -44,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{9F0B2B8B-8E3D-446C-9DE1-540E786523F8}|E-CommercePlatform\\E-CommercePlatform.csproj|solutionrelative:e-commerceplatform\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F0B2B8B-8E3D-446C-9DE1-540E786523F8}|E-CommercePlatform\\E-CommercePlatform.csproj|c:\\e-commerceplatform\\backend\\e-commerceplatform\\e-commerceplatform\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9F0B2B8B-8E3D-446C-9DE1-540E786523F8}|E-CommercePlatform\\E-CommercePlatform.csproj|solutionrelative:e-commerceplatform\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F0B2B8B-8E3D-446C-9DE1-540E786523F8}|E-CommercePlatform\\E-CommercePlatform.csproj|c:\\e-commerceplatform\\backend\\e-commerceplatform\\e-commerceplatform\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F0B2B8B-8E3D-446C-9DE1-540E786523F8}|E-CommercePlatform\\E-CommercePlatform.csproj|solutionrelative:e-commerceplatform\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -62,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{162B5A05-4F0B-45F3-BC32-975E43364F91}|CartService\\CartService.csproj|c:\\e-commerceplatform\\backend\\e-commerceplatform\\cartservice\\cartserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{162B5A05-4F0B-45F3-BC32-975E43364F91}|CartService\\CartService.csproj|solutionrelative:cartservice\\cartserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73BE11A9-192E-4E44-A659-4032365B51E8}|PaymentService\\PaymentService.csproj|c:\\e-commerceplatform\\backend\\e-commerceplatform\\paymentservice\\paymentserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73BE11A9-192E-4E44-A659-4032365B51E8}|PaymentService\\PaymentService.csproj|solutionrelative:paymentservice\\paymentserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F892D7E-4B00-4F89-8EBA-C293DF591053}|Common\\Common.csproj|c:\\e-commerceplatform\\backend\\e-commerceplatform\\common\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,6 +105,15 @@
     {
       "AbsoluteMoniker": "D:0:0:{8F892D7E-4B00-4F89-8EBA-C293DF591053}|Common\\Common.csproj|c:\\e-commerceplatform\\backend\\e-commerceplatform\\common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8F892D7E-4B00-4F89-8EBA-C293DF591053}|Common\\Common.csproj|solutionrelative:common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\E-CommercePlatform\\tests\\backend tests\\E-CommercePlatform.Tests\\CartControllerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\E-CommercePlatform\\tests\\backend tests\\E-CommercePlatform.Tests\\AuthControllerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\E-CommercePlatform\\tests\\backend tests\\E-CommercePlatform.Tests\\ProductControllerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -123,11 +123,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 26,
               "Title": "CartControllerTests.cs",
               "DocumentMoniker": "C:\\E-CommercePlatform\\tests\\backend tests\\E-CommercePlatform.Tests\\CartControllerTests.cs",
               "RelativeDocumentMoniker": "..\\..\\tests\\backend tests\\E-CommercePlatform.Tests\\CartControllerTests.cs",
@@ -135,51 +135,24 @@
               "RelativeToolTip": "..\\..\\tests\\backend tests\\E-CommercePlatform.Tests\\CartControllerTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T12:56:14.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T12:56:14.198Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductControllerTests.cs",
-              "DocumentMoniker": "C:\\E-CommercePlatform\\tests\\backend tests\\E-CommercePlatform.Tests\\ProductControllerTests.cs",
-              "RelativeDocumentMoniker": "..\\..\\tests\\backend tests\\E-CommercePlatform.Tests\\ProductControllerTests.cs",
-              "ToolTip": "C:\\E-CommercePlatform\\tests\\backend tests\\E-CommercePlatform.Tests\\ProductControllerTests.cs",
-              "RelativeToolTip": "..\\..\\tests\\backend tests\\E-CommercePlatform.Tests\\ProductControllerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAlwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T12:46:43.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthControllerTests.cs",
-              "DocumentMoniker": "C:\\E-CommercePlatform\\tests\\backend tests\\E-CommercePlatform.Tests\\AuthControllerTests.cs",
-              "RelativeDocumentMoniker": "..\\..\\tests\\backend tests\\E-CommercePlatform.Tests\\AuthControllerTests.cs",
-              "ToolTip": "C:\\E-CommercePlatform\\tests\\backend tests\\E-CommercePlatform.Tests\\AuthControllerTests.cs",
-              "RelativeToolTip": "..\\..\\tests\\backend tests\\E-CommercePlatform.Tests\\AuthControllerTests.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAYwEgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T12:44:15.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\Program.cs",
               "RelativeDocumentMoniker": "E-CommercePlatform\\Program.cs",
               "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\Program.cs",
               "RelativeToolTip": "E-CommercePlatform\\Program.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAuwH0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T12:47:11.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\AuthenticationService\\AuthService.cs",
               "RelativeDocumentMoniker": "AuthenticationService\\AuthService.cs",
@@ -191,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "ProductDTO.cs",
               "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\DTOs\\ProductDTO.cs",
               "RelativeDocumentMoniker": "Common\\DTOs\\ProductDTO.cs",
@@ -203,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "E-CommercePlatform\\Controllers\\ProductController.cs",
@@ -215,115 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "E-CommercePlatform\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "E-CommercePlatform\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T12:45:48.231Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\appsettings.json",
-              "RelativeDocumentMoniker": "E-CommercePlatform\\appsettings.json",
-              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\appsettings.json",
-              "RelativeToolTip": "E-CommercePlatform\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-26T12:47:36.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\DTOs\\RegisterDTO.cs",
-              "RelativeDocumentMoniker": "Common\\DTOs\\RegisterDTO.cs",
-              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\DTOs\\RegisterDTO.cs",
-              "RelativeToolTip": "Common\\DTOs\\RegisterDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T12:32:03.724Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\ProductService\\ProductService.cs",
-              "RelativeDocumentMoniker": "ProductService\\ProductService.cs",
-              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\ProductService\\ProductService.cs",
-              "RelativeToolTip": "ProductService\\ProductService.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwF8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T12:42:04.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "E-CommercePlatform\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "E-CommercePlatform\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAhwGYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T17:42:21.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "E-CommercePlatform\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\Controllers\\CartController.cs",
-              "RelativeToolTip": "E-CommercePlatform\\Controllers\\CartController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAuwFAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T16:45:55.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CartDTO.cs",
-              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\DTOs\\CartDTO.cs",
-              "RelativeDocumentMoniker": "Common\\DTOs\\CartDTO.cs",
-              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\DTOs\\CartDTO.cs",
-              "RelativeToolTip": "Common\\DTOs\\CartDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T14:29:25.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\DTOs\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "Common\\DTOs\\LoginDTO.cs",
-              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\DTOs\\LoginDTO.cs",
-              "RelativeToolTip": "Common\\DTOs\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T12:31:28.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CartServiceImpl.cs",
-              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\CartService\\CartServiceImpl.cs",
-              "RelativeDocumentMoniker": "CartService\\CartServiceImpl.cs",
-              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\CartService\\CartServiceImpl.cs",
-              "RelativeToolTip": "CartService\\CartServiceImpl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T16:44:04.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 2,
               "Title": "PaymentServiceImpl.cs",
               "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\PaymentService\\PaymentServiceImpl.cs",
               "RelativeDocumentMoniker": "PaymentService\\PaymentServiceImpl.cs",
@@ -335,7 +200,140 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\appsettings.json",
+              "RelativeDocumentMoniker": "E-CommercePlatform\\appsettings.json",
+              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\appsettings.json",
+              "RelativeToolTip": "E-CommercePlatform\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-26T12:47:36.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AuthControllerTests.cs",
+              "DocumentMoniker": "C:\\E-CommercePlatform\\tests\\backend tests\\E-CommercePlatform.Tests\\AuthControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\tests\\backend tests\\E-CommercePlatform.Tests\\AuthControllerTests.cs",
+              "ToolTip": "C:\\E-CommercePlatform\\tests\\backend tests\\E-CommercePlatform.Tests\\AuthControllerTests.cs",
+              "RelativeToolTip": "..\\..\\tests\\backend tests\\E-CommercePlatform.Tests\\AuthControllerTests.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAYwEgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T12:44:15.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProductControllerTests.cs",
+              "DocumentMoniker": "C:\\E-CommercePlatform\\tests\\backend tests\\E-CommercePlatform.Tests\\ProductControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\tests\\backend tests\\E-CommercePlatform.Tests\\ProductControllerTests.cs",
+              "ToolTip": "C:\\E-CommercePlatform\\tests\\backend tests\\E-CommercePlatform.Tests\\ProductControllerTests.cs",
+              "RelativeToolTip": "..\\..\\tests\\backend tests\\E-CommercePlatform.Tests\\ProductControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAlwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T12:46:43.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "E-CommercePlatform\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "E-CommercePlatform\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T12:45:48.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Common\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "Common\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T12:32:03.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\ProductService\\ProductService.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.cs",
+              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\ProductService\\ProductService.cs",
+              "RelativeToolTip": "ProductService\\ProductService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T12:42:04.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "E-CommercePlatform\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "E-CommercePlatform\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAhwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T17:42:21.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "E-CommercePlatform\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\E-CommercePlatform\\Controllers\\CartController.cs",
+              "RelativeToolTip": "E-CommercePlatform\\Controllers\\CartController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAuwFAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T16:45:55.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartDTO.cs",
+              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\DTOs\\CartDTO.cs",
+              "RelativeDocumentMoniker": "Common\\DTOs\\CartDTO.cs",
+              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\DTOs\\CartDTO.cs",
+              "RelativeToolTip": "Common\\DTOs\\CartDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T14:29:25.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Common\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "Common\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T12:31:28.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartServiceImpl.cs",
+              "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\CartService\\CartServiceImpl.cs",
+              "RelativeDocumentMoniker": "CartService\\CartServiceImpl.cs",
+              "ToolTip": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\CartService\\CartServiceImpl.cs",
+              "RelativeToolTip": "CartService\\CartServiceImpl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T16:44:04.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "IPaymentService.cs",
               "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\Interfaces\\IPaymentService.cs",
               "RelativeDocumentMoniker": "Common\\Interfaces\\IPaymentService.cs",
@@ -347,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 15,
               "Title": "PaymentDTO.cs",
               "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\DTOs\\PaymentDTO.cs",
               "RelativeDocumentMoniker": "Common\\DTOs\\PaymentDTO.cs",
@@ -359,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 16,
               "Title": "OrderServiceImpl.cs",
               "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\OrderService\\OrderServiceImpl.cs",
               "RelativeDocumentMoniker": "OrderService\\OrderServiceImpl.cs",
@@ -371,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 17,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\Interfaces\\IOrderService.cs",
               "RelativeDocumentMoniker": "Common\\Interfaces\\IOrderService.cs",
@@ -383,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 18,
               "Title": "OrderDTO.cs",
               "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\DTOs\\OrderDTO.cs",
               "RelativeDocumentMoniker": "Common\\DTOs\\OrderDTO.cs",
@@ -395,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 19,
               "Title": "OrderService.csproj",
               "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\OrderService\\OrderService.csproj",
               "RelativeDocumentMoniker": "OrderService\\OrderService.csproj",
@@ -407,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 21,
               "Title": "ICartService.cs",
               "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\Interfaces\\ICartService.cs",
               "RelativeDocumentMoniker": "Common\\Interfaces\\ICartService.cs",
@@ -419,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 20,
               "Title": "CartService.csproj",
               "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\CartService\\CartService.csproj",
               "RelativeDocumentMoniker": "CartService\\CartService.csproj",
@@ -431,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 22,
               "Title": "AuthenticationService.csproj",
               "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\AuthenticationService\\AuthenticationService.csproj",
               "RelativeDocumentMoniker": "AuthenticationService\\AuthenticationService.csproj",
@@ -443,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 23,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "Common\\Interfaces\\IProductService.cs",
@@ -455,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 24,
               "Title": "IAuthenticationService.cs",
               "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\Interfaces\\IAuthenticationService.cs",
               "RelativeDocumentMoniker": "Common\\Interfaces\\IAuthenticationService.cs",
@@ -467,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 25,
               "Title": "Common.csproj",
               "DocumentMoniker": "C:\\E-CommercePlatform\\Backend\\E-CommercePlatform\\Common\\Common.csproj",
               "RelativeDocumentMoniker": "Common\\Common.csproj",

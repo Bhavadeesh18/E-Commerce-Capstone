@@ -1,8 +1,3 @@
-C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\obj\Debug\net8.0\AuthenticationService.csproj.AssemblyReference.cache
-C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\obj\Debug\net8.0\AuthenticationService.GeneratedMSBuildEditorConfig.editorconfig
-C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\obj\Debug\net8.0\AuthenticationService.AssemblyInfoInputs.cache
-C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\obj\Debug\net8.0\AuthenticationService.AssemblyInfo.cs
-C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\obj\Debug\net8.0\AuthenticationService.csproj.CoreCompileInputs.cache
 C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\bin\Debug\net8.0\AuthenticationService.deps.json
 C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\bin\Debug\net8.0\AuthenticationService.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\bin\Debug\net8.0\AuthenticationService.pdb
@@ -10,6 +5,12 @@ C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\bin\Debug
 C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\bin\Debug\net8.0\Database.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\bin\Debug\net8.0\Common.pdb
 C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\bin\Debug\net8.0\Database.pdb
+C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\obj\Debug\net8.0\AuthenticationService.csproj.AssemblyReference.cache
+C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\obj\Debug\net8.0\AuthenticationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\obj\Debug\net8.0\AuthenticationService.AssemblyInfoInputs.cache
+C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\obj\Debug\net8.0\AuthenticationService.AssemblyInfo.cs
+C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\obj\Debug\net8.0\AuthenticationService.csproj.CoreCompileInputs.cache
+C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\obj\Debug\net8.0\AuthenticationService.sourcelink.json
 C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\obj\Debug\net8.0\Authenti.B4DABC11.Up2Date
 C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\obj\Debug\net8.0\AuthenticationService.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\AuthenticationService\obj\Debug\net8.0\refint\AuthenticationService.dll

@@ -2,12 +2,18 @@ using Common.DTOs;
 using Common.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 
 namespace E_CommercePlatform.Controllers
 {
+    /// <summary>
+    /// Payment processing controller for Stripe integration
+    /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     [Authorize]
+    [Produces("application/json")]
+    [Tags("Payment")]
     public class PaymentController : ControllerBase
     {
         private readonly IPaymentService _paymentService;
@@ -17,9 +23,23 @@ namespace E_CommercePlatform.Controllers
             _paymentService = paymentService;
         }
 
+        /// <summary>
+        /// Process payment using Stripe
+        /// </summary>
+        /// <param name="paymentDto">Payment details including amount and payment method</param>
+        /// <returns>Payment result with transaction ID</returns>
+        /// <response code="200">Payment processed successfully</response>
+        /// <response code="400">Payment failed or invalid data</response>
+        /// <response code="401">Unauthorized access</response>
         [HttpPost("process")]
-        public async Task<IActionResult> ProcessPayment([FromBody] PaymentDto paymentDto)
+        [ProducesResponseType(typeof(PaymentResultDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(PaymentResultDto), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        public async Task<IActionResult> ProcessPayment([FromBody][Required] PaymentDto paymentDto)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
             try
             {
                 var result = await _paymentService.ProcessPaymentAsync(paymentDto);
@@ -39,10 +59,26 @@ namespace E_CommercePlatform.Controllers
             }
         }
 
+        /// <summary>
+        /// Process refund for a payment (Admin only)
+        /// </summary>
+        /// <param name="refundDto">Refund details including transaction ID and amount</param>
+        /// <returns>Refund result</returns>
+        /// <response code="200">Refund processed successfully</response>
+        /// <response code="400">Refund failed</response>
+        /// <response code="401">Unauthorized access</response>
+        /// <response code="403">Forbidden - Admin role required</response>
         [HttpPost("refund")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> RefundPayment([FromBody] RefundDto refundDto)
+        [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
+        public async Task<IActionResult> RefundPayment([FromBody][Required] RefundDto refundDto)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
             try
             {
                 var result = await _paymentService.RefundPaymentAsync(refundDto.TransactionId, refundDto.Amount);

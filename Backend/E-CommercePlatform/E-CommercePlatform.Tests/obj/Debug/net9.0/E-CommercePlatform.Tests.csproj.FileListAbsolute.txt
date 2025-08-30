@@ -9,9 +9,6 @@ C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\De
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\E-CommercePlatform.exe
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\testhost.exe
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\MvcTestingAppManifest.json
-C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\xunit.runner.visualstudio.testadapter.dll
-C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\xunit.runner.reporters.netcoreapp10.dll
-C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\xunit.runner.utility.netcoreapp10.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\E-CommercePlatform.Tests.deps.json
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\E-CommercePlatform.Tests.runtimeconfig.json
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\E-CommercePlatform.Tests.dll
@@ -384,6 +381,7 @@ C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\De
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\Stripe.net.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -397,10 +395,6 @@ C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\De
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\System.Security.Permissions.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\System.Windows.Extensions.dll
-C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\xunit.abstractions.dll
-C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\xunit.assert.dll
-C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\xunit.core.dll
-C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\xunit.execution.dotnet.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -488,6 +482,7 @@ C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\De
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\PaymentService.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\ProductService.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\E-CommercePlatform.pdb
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\E-CommercePlatform.xml
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\Common.pdb
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\Database.pdb
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\AuthenticationService.pdb
@@ -501,9 +496,20 @@ C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\obj\De
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\obj\Debug\net9.0\E-CommercePlatform.Tests.AssemblyInfoInputs.cache
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\obj\Debug\net9.0\E-CommercePlatform.Tests.AssemblyInfo.cs
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\obj\Debug\net9.0\E-CommercePlatform.Tests.csproj.CoreCompileInputs.cache
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\obj\Debug\net9.0\E-CommercePlatform.Tests.sourcelink.json
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\obj\Debug\net9.0\E-Commer.A5D32D02.Up2Date
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\obj\Debug\net9.0\E-CommercePlatform.Tests.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\obj\Debug\net9.0\refint\E-CommercePlatform.Tests.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\obj\Debug\net9.0\E-CommercePlatform.Tests.pdb
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\obj\Debug\net9.0\E-CommercePlatform.Tests.genruntimeconfig.cache
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\obj\Debug\net9.0\ref\E-CommercePlatform.Tests.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\NUnit3.TestAdapter.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\NUnit3.TestAdapter.pdb
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\nunit.engine.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\nunit.engine.api.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\nunit.engine.core.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\testcentric.engine.metadata.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\Castle.Core.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\Moq.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\nunit.framework.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform.Tests\bin\Debug\net9.0\nunit.framework.legacy.dll

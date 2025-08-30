@@ -1,8 +1,18 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "E-CommercePlatform",
-    "version": "1.0"
+    "title": "E-Commerce Platform API",
+    "description": "A comprehensive e-commerce platform API with microservices architecture",
+    "contact": {
+      "name": "E-Commerce Platform Team",
+      "url": "https://github.com/your-repo/ecommerce-platform",
+      "email": "support@ecommerce.com"
+    },
+    "license": {
+      "name": "MIT License",
+      "url": "https://opensource.org/licenses/MIT"
+    },
+    "version": "v1"
   },
   "paths": {
     "/api/Auth/login": {
@@ -10,7 +20,9 @@
         "tags": [
           "Auth"
         ],
+        "summary": "Authenticates a user and returns a JWT token",
         "requestBody": {
+          "description": "User login credentials",
           "content": {
             "application/json": {
               "schema": {
@@ -27,11 +39,37 @@
                 "$ref": "#/components/schemas/LoginDto"
               }
             }
-          }
+          },
+          "required": true
         },
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "Returns JWT token when login is successful",
+            "content": {
+              "application/json": {
+                "schema": { }
+              }
+            }
+          },
+          "401": {
+            "description": "Returns error when credentials are invalid",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Returns error when request data is invalid",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       }
@@ -41,7 +79,9 @@
         "tags": [
           "Auth"
         ],
+        "summary": "Registers a new user account",
         "requestBody": {
+          "description": "User registration information",
           "content": {
             "application/json": {
               "schema": {
@@ -58,11 +98,29 @@
                 "$ref": "#/components/schemas/RegisterDto"
               }
             }
-          }
+          },
+          "required": true
         },
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "Returns success message when registration is successful",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Returns error when user already exists or data is invalid",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       }
@@ -336,7 +394,9 @@
         "tags": [
           "Payment"
         ],
+        "summary": "Process payment using Stripe",
         "requestBody": {
+          "description": "Payment details including amount and payment method",
           "content": {
             "application/json": {
               "schema": {
@@ -353,11 +413,39 @@
                 "$ref": "#/components/schemas/PaymentDto"
               }
             }
-          }
+          },
+          "required": true
         },
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "Payment processed successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentResultDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Payment failed or invalid data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PaymentResultDto"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized access",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
           }
         }
       }
@@ -367,7 +455,9 @@
         "tags": [
           "Payment"
         ],
+        "summary": "Process refund for a payment (Admin only)",
         "requestBody": {
+          "description": "Refund details including transaction ID and amount",
           "content": {
             "application/json": {
               "schema": {
@@ -384,11 +474,49 @@
                 "$ref": "#/components/schemas/RefundDto"
               }
             }
-          }
+          },
+          "required": true
         },
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "Refund processed successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Refund failed",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized access",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden - Admin role required",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
           }
         }
       }
@@ -398,9 +526,20 @@
         "tags": [
           "Product"
         ],
+        "summary": "Retrieves all products from the catalog",
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "Returns the list of products",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ProductDto"
+                  }
+                }
+              }
+            }
           }
         }
       },
@@ -408,7 +547,9 @@
         "tags": [
           "Product"
         ],
+        "summary": "Creates a new product (Admin only)",
         "requestBody": {
+          "description": "Product information",
           "content": {
             "application/json": {
               "schema": {
@@ -425,11 +566,49 @@
                 "$ref": "#/components/schemas/ProductDto"
               }
             }
-          }
+          },
+          "required": true
         },
         "responses": {
-          "200": {
-            "description": "OK"
+          "201": {
+            "description": "Product created successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductDto"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid product data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized access",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden - Admin role required",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
           }
         }
       }
@@ -439,10 +618,12 @@
         "tags": [
           "Product"
         ],
+        "summary": "Retrieves a specific product by ID",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "The product ID",
             "required": true,
             "schema": {
               "type": "integer",
@@ -452,7 +633,24 @@
         ],
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "Returns the requested product",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductDto"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Product not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
           }
         }
       },
@@ -460,10 +658,12 @@
         "tags": [
           "Product"
         ],
+        "summary": "Updates an existing product (Admin only)",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "Product ID to update",
             "required": true,
             "schema": {
               "type": "integer",
@@ -472,6 +672,7 @@
           }
         ],
         "requestBody": {
+          "description": "Updated product information",
           "content": {
             "application/json": {
               "schema": {
@@ -488,11 +689,52 @@
                 "$ref": "#/components/schemas/ProductDto"
               }
             }
-          }
+          },
+          "required": true
         },
         "responses": {
-          "200": {
-            "description": "OK"
+          "204": {
+            "description": "Product updated successfully"
+          },
+          "400": {
+            "description": "Invalid product data",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized access",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden - Admin role required",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Product not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
           }
         }
       },
@@ -500,10 +742,12 @@
         "tags": [
           "Product"
         ],
+        "summary": "Deletes a product (Admin only)",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "Product ID to delete",
             "required": true,
             "schema": {
               "type": "integer",
@@ -512,8 +756,38 @@
           }
         ],
         "responses": {
-          "200": {
-            "description": "OK"
+          "204": {
+            "description": "Product deleted successfully"
+          },
+          "401": {
+            "description": "Unauthorized access",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden - Admin role required",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Product not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
           }
         }
       }
@@ -641,6 +915,50 @@
         },
         "additionalProperties": false
       },
+      "PaymentResultDto": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "transactionId": {
+            "type": "string",
+            "nullable": true
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      },
       "ProductDto": {
         "type": "object",
         "properties": {
@@ -734,7 +1052,7 @@
     "securitySchemes": {
       "Bearer": {
         "type": "apiKey",
-        "description": "JWT Authorization header using the Bearer scheme. Enter 'Bearer' [space] and then your token in the text input below.",
+        "description": "JWT Authorization header using the Bearer scheme. \r\n                      Enter 'Bearer' [space] and then your token in the text input below.\r\n                      Example: 'Bearer 12345abcdef'",
         "name": "Authorization",
         "in": "header"
       }

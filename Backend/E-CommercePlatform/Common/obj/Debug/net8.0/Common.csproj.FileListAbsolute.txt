@@ -6,6 +6,7 @@ C:\E-CommercePlatform\Backend\E-CommercePlatform\Common\obj\Debug\net8.0\Common.
 C:\E-CommercePlatform\Backend\E-CommercePlatform\Common\obj\Debug\net8.0\Common.AssemblyInfoInputs.cache
 C:\E-CommercePlatform\Backend\E-CommercePlatform\Common\obj\Debug\net8.0\Common.AssemblyInfo.cs
 C:\E-CommercePlatform\Backend\E-CommercePlatform\Common\obj\Debug\net8.0\Common.csproj.CoreCompileInputs.cache
+C:\E-CommercePlatform\Backend\E-CommercePlatform\Common\obj\Debug\net8.0\Common.sourcelink.json
 C:\E-CommercePlatform\Backend\E-CommercePlatform\Common\obj\Debug\net8.0\Common.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\Common\obj\Debug\net8.0\refint\Common.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\Common\obj\Debug\net8.0\Common.pdb

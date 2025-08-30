@@ -1,10 +1,3 @@
-C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.csproj.AssemblyReference.cache
-C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\rpswa.dswa.cache.json
-C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.GeneratedMSBuildEditorConfig.editorconfig
-C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.AssemblyInfoInputs.cache
-C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.AssemblyInfo.cs
-C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.csproj.CoreCompileInputs.cache
-C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.MvcApplicationPartsAssemblyInfo.cache
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\appsettings.Development.json
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\appsettings.json
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\E-CommercePlatform.staticwebassets.endpoints.json
@@ -13,6 +6,7 @@ C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\ne
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\E-CommercePlatform.runtimeconfig.json
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\E-CommercePlatform.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\E-CommercePlatform.pdb
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\E-CommercePlatform.xml
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\AutoMapper.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\Azure.Core.dll
@@ -56,6 +50,8 @@ C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\ne
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\Stripe.net.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -171,6 +167,15 @@ C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\ne
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\OrderService.pdb
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\PaymentService.pdb
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\bin\Debug\net8.0\ProductService.pdb
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.csproj.AssemblyReference.cache
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.GeneratedMSBuildEditorConfig.editorconfig
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.AssemblyInfoInputs.cache
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.AssemblyInfo.cs
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.csproj.CoreCompileInputs.cache
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.MvcApplicationPartsAssemblyInfo.cs
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.MvcApplicationPartsAssemblyInfo.cache
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.sourcelink.json
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -182,7 +187,7 @@ C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\ne
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-Commer.5398DF0E.Up2Date
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.dll
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\refint\E-CommercePlatform.dll
+C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.xml
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.pdb
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.genruntimeconfig.cache
 C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\ref\E-CommercePlatform.dll
-C:\E-CommercePlatform\Backend\E-CommercePlatform\E-CommercePlatform\obj\Debug\net8.0\E-CommercePlatform.MvcApplicationPartsAssemblyInfo.cs

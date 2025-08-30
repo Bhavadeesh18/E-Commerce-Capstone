@@ -1527,6 +1527,21 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "Stripe.net/43.23.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.Configuration.ConfigurationManager": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {
+            "assemblyVersion": "43.23.0.0",
+            "fileVersion": "43.23.0.0"
+          }
+        },
+        "compile": {
+          "lib/net6.0/Stripe.net.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.6.2": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -2523,7 +2538,8 @@
       "PaymentService/1.0.0": {
         "dependencies": {
           "Common": "1.0.0",
-          "Database": "1.0.0"
+          "Database": "1.0.0",
+          "Stripe.net": "43.23.0"
         },
         "runtime": {
           "PaymentService.dll": {
@@ -4915,6 +4931,13 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "Stripe.net/43.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Tz0F2CJCkIsdMPjg8fdrOit25B3LqNjqL+CBdmDPvH/ggrskUOGdv1ua2JLl+dzDQ7kx6m2Z471jaEctJz/bQ==",
+      "path": "stripe.net/43.23.0",
+      "hashPath": "stripe.net.43.23.0.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.6.2": {
       "type": "package",
