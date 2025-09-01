@@ -5,7 +5,7 @@ ENV ASPNETCORE_URLS=http://+:8080
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY Backend/E-CommercePlatform/ .
+COPY ["Backend .NET/E-CommercePlatform/", "."]
 RUN dotnet restore "E-CommercePlatform/E-CommercePlatform.csproj"
 RUN dotnet build "E-CommercePlatform/E-CommercePlatform.csproj" -c Release -o /app/build
 

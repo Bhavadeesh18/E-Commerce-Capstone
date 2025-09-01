@@ -1,8 +1,8 @@
 FROM node:18-alpine AS build
 WORKDIR /app
-COPY Frontend/ecommerce-web-app/package*.json ./
+COPY ["Frontend React/ecommerce-web-app/package*.json", "./"]
 RUN npm install
-COPY Frontend/ecommerce-web-app/ .
+COPY ["Frontend React/ecommerce-web-app/", "."]
 RUN npm run build
 
 FROM nginx:alpine
