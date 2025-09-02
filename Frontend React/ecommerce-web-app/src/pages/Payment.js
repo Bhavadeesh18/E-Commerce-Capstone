@@ -3,6 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { clearCartLocal } from '../redux/slices/cartSlice';
 import { cartService } from '../services/cartService';
+import { customAlert } from '../utils/customAlert';
 
 const Payment = () => {
   const location = useLocation();
@@ -12,7 +13,7 @@ const Payment = () => {
   const { orderId, amount, orderDetails } = location.state || {};
   
   const [paymentData, setPaymentData] = useState({
-    paymentMethod: 'CreditCard',
+    paymentMethod: 'PayPal',
     cardNumber: '',
     expiryDate: '',
     cvv: '',
@@ -26,9 +27,19 @@ const Payment = () => {
   }
 
   const handleInputChange = (e) => {
+    let value = e.target.value;
+    
+    // Auto-format expiry date
+    if (e.target.name === 'expiryDate') {
+      value = value.replace(/\D/g, ''); // Remove non-digits
+      if (value.length >= 2) {
+        value = value.substring(0, 2) + '/' + value.substring(2, 4);
+      }
+    }
+    
     setPaymentData({
       ...paymentData,
-      [e.target.name]: e.target.value
+      [e.target.name]: value
     });
   };
 
@@ -38,7 +49,7 @@ const Payment = () => {
     // Validate payment form
     if (paymentData.paymentMethod === 'CreditCard') {
       if (!paymentData.cardNumber || !paymentData.expiryDate || !paymentData.cvv || !paymentData.cardName) {
-        alert('Please fill all payment details');
+        customAlert('Please fill all payment details');
         return;
       }
     }
@@ -50,14 +61,7 @@ const Payment = () => {
       await new Promise(resolve => setTimeout(resolve, 2000));
       
       // Show confirmation popup
-      const confirmed = window.confirm(
-        `🛒 Confirm Your Order\n\nOrder ID: #${orderId}\nAmount: $${amount}\nPayment Method: ${paymentData.paymentMethod}\n\nProceed with payment?`
-      );
-      
-      if (!confirmed) {
-        setLoading(false);
-        return;
-      }
+      customAlert(`🛒 Confirm Your Order\n\nOrder ID: #${orderId}\nAmount: $${amount}\nPayment Method: ${paymentData.paymentMethod}\n\nPayment will be processed.`);
       
       // Clear cart after successful payment
       try {
@@ -69,12 +73,12 @@ const Payment = () => {
       
       // Show success message
       const successMessage = `🎉 Payment Successful!\n\nOrder ID: #${orderId}\nAmount Paid: $${amount}\nPayment Method: ${paymentData.paymentMethod}\n\nYour order has been confirmed and will be processed shortly.`;
-      alert(successMessage);
+      customAlert(successMessage);
       
       // Navigate to orders page
       navigate('/orders');
     } catch (error) {
-      alert('❌ Payment Failed: ' + error.message);
+      customAlert('❌ Payment Failed: ' + error.message);
     } finally {
       setLoading(false);
     }
@@ -117,6 +121,7 @@ const Payment = () => {
                         value={paymentData.cardNumber}
                         onChange={handleInputChange}
                         placeholder="1234 5678 9012 3456"
+                        maxLength="16"
                         required
                       />
                     </div>
@@ -132,6 +137,7 @@ const Payment = () => {
                             value={paymentData.expiryDate}
                             onChange={handleInputChange}
                             placeholder="MM/YY"
+                            maxLength="5"
                             required
                           />
                         </div>
@@ -146,6 +152,7 @@ const Payment = () => {
                             value={paymentData.cvv}
                             onChange={handleInputChange}
                             placeholder="123"
+                            maxLength="3"
                             required
                           />
                         </div>

@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { cartService } from '../services/cartService';
 import { addToCartLocal } from '../redux/slices/cartSlice';
 import { addToWishlist, removeFromWishlist } from '../redux/slices/wishlistSlice';
+import { customAlert } from '../utils/customAlert';
 import './ProductCard.css';
 
 const ProductCard = ({ product }) => {
@@ -25,28 +26,26 @@ const ProductCard = ({ product }) => {
       return;
     }
     
-    if (quantity === 0) {
-      setQuantity(1);
-      return;
-    }
+    const finalQuantity = quantity === 0 ? 1 : quantity;
 
     setIsAdding(true);
     try {
-      await cartService.addToCart(product.id, quantity);
+      await cartService.addToCart(product.id, finalQuantity);
       dispatch(addToCartLocal({
         productId: product.id,
         productName: product.name,
         price: product.price,
-        quantity: quantity,
-        subtotal: product.price * quantity,
-        imageUrl: product.imageUrl || product.ImageUrl
+        quantity: finalQuantity,
+        subtotal: product.price * finalQuantity,
+        imageUrl: product.imageUrl || product.ImageUrl || product.image
       }));
       
-      alert(`${quantity} item(s) added to cart!`);
+      setQuantity(finalQuantity);
+      customAlert(`${finalQuantity} item(s) added to cart!`);
       setShowSuccess(true);
       setTimeout(() => setShowSuccess(false), 2000);
     } catch (error) {
-      alert('Failed to add item to cart');
+      customAlert('Failed to add item to cart');
     } finally {
       setIsAdding(false);
     }
@@ -82,7 +81,7 @@ const ProductCard = ({ product }) => {
       <div className="card h-100 product-card" onClick={handleProductClick}>
         <div className="position-relative overflow-hidden">
           <img 
-            src={product.imageUrl || product.ImageUrl || `https://images.unsplash.com/photo-1541167760496-1628856ab772?w=300&h=250&fit=crop&auto=format`} 
+            src={product.imageUrl || product.ImageUrl || product.image} 
             className="card-img-top product-image" 
             alt={product.name}
             onError={(e) => {

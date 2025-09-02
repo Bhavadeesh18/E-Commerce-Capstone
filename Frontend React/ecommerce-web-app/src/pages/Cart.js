@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { cartService } from '../services/cartService';
 import { setCart, updateCartItemLocal, removeFromCartLocal } from '../redux/slices/cartSlice';
+import { customAlert } from '../utils/customAlert';
 
 const Cart = () => {
   const dispatch = useDispatch();
@@ -16,20 +17,25 @@ const Cart = () => {
       return;
     }
 
-    const fetchCart = async () => {
-      try {
-        const cartData = await cartService.getCart();
-        dispatch(setCart(cartData));
-      } catch (error) {
-        console.error('Failed to fetch cart:', error);
-      }
-    };
-
-    fetchCart();
+    // Don't fetch cart if we already have items with images
+    if (items.length === 0) {
+      const fetchCart = async () => {
+        try {
+          const cartData = await cartService.getCart();
+          dispatch(setCart(cartData));
+        } catch (error) {
+          console.error('Failed to fetch cart:', error);
+        }
+      };
+      fetchCart();
+    }
   }, [dispatch, isAuthenticated, navigate]);
 
   const handleUpdateQuantity = async (productId, newQuantity) => {
-    if (newQuantity < 1) return;
+    if (newQuantity < 1) {
+      handleRemoveItem(productId);
+      return;
+    }
     
     // Update UI immediately
     dispatch(updateCartItemLocal({ productId, quantity: newQuantity }));
@@ -37,7 +43,7 @@ const Cart = () => {
     try {
       await cartService.updateCartItem(productId, newQuantity);
     } catch (error) {
-      alert('Failed to update quantity');
+      customAlert('Failed to update quantity');
       // Refresh cart to revert changes on error
       const cartData = await cartService.getCart();
       dispatch(setCart(cartData));
@@ -49,7 +55,7 @@ const Cart = () => {
       await cartService.removeFromCart(productId);
       dispatch(removeFromCartLocal(productId));
     } catch (error) {
-      alert('Failed to remove item');
+      customAlert('Failed to remove item');
     }
   };
 
@@ -98,12 +104,12 @@ const Cart = () => {
                     <div className="row align-items-center">
                       <div className="col-md-2">
                         <img 
-                          src={item.imageUrl || `https://images.unsplash.com/photo-1541167760496-1628856ab772?w=100&h=100&fit=crop&auto=format`}
-                          alt={item.productName}
+                          src={item.imageUrl || item.ImageUrl || item.image || item.product?.ImageUrl || item.Product?.ImageUrl || 'https://via.placeholder.com/100x100/f8f9fa/6c757d?text=No+Image'}
+                          alt={item.productName || item.product?.Name || item.Product?.Name}
                           className="img-fluid rounded"
                           style={{width: '80px', height: '80px', objectFit: 'cover'}}
                           onError={(e) => {
-                            e.target.src = `https://via.placeholder.com/100x100/f8f9fa/6c757d?text=${encodeURIComponent(item.productName.substring(0, 2))}`;
+                            e.target.src = `https://via.placeholder.com/100x100/f8f9fa/6c757d?text=${encodeURIComponent((item.productName || item.product?.Name || item.Product?.Name || 'Product').substring(0, 2))}`;
                           }}
                         />
                       </div>
@@ -120,7 +126,6 @@ const Cart = () => {
                           <button 
                             className="btn btn-outline-secondary btn-sm"
                             onClick={() => handleUpdateQuantity(item.productId, item.quantity - 1)}
-                            disabled={item.quantity <= 1}
                           >
                             <i className="fas fa-minus"></i>
                           </button>

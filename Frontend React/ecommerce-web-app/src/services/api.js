@@ -1,15 +1,15 @@
 import axios from 'axios';
 
 // Base API configuration
-// Check if running in Docker (frontend served from container)
-const isDocker = window.location.port === '3000' && window.location.hostname === 'localhost';
+const isDocker = window.location.hostname !== 'localhost' || window.location.port === '3000';
 const API_BASE_URL = isDocker 
-  ? 'http://localhost:5000/api'    // Docker: backend exposed on host
-  : 'https://localhost:7167/api';  // Local development
+  ? 'http://localhost:5000/api'    // Docker: backend exposed on host port 5000
+  : process.env.REACT_APP_API_URL || 'https://localhost:7167/api';  // Local development
 
 // Create axios instance
 const api = axios.create({
   baseURL: API_BASE_URL,
+  timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
   },
@@ -33,6 +33,14 @@ api.interceptors.request.use(
 api.interceptors.response.use(
   (response) => response,
   (error) => {
+    console.error('API Error:', {
+      url: error.config?.url,
+      method: error.config?.method,
+      status: error.response?.status,
+      data: error.response?.data,
+      message: error.message
+    });
+    
     if (error.response?.status === 401) {
       localStorage.removeItem('token');
       window.location.href = '/login';

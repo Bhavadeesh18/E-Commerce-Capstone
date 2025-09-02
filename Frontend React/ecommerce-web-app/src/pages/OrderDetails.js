@@ -59,7 +59,7 @@ const OrderDetails = () => {
     }
 
     try {
-      await orderService.updateOrderStatus(order.id, 'Cancelled');
+      await orderService.cancelOrder(order.id);
       setOrder({ ...order, status: 'Cancelled' });
       alert('Order cancelled successfully!');
     } catch (error) {

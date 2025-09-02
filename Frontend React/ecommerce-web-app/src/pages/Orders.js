@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { orderService } from '../services/orderService';
+import { customAlert } from '../utils/customAlert';
 import Loading from '../components/Loading';
 
 const Orders = () => {
@@ -38,13 +39,21 @@ const Orders = () => {
 
     setCancellingOrder(orderId);
     try {
+      console.log('Cancelling order:', orderId);
+      console.log('Token:', localStorage.getItem('token'));
       await orderService.cancelOrder(orderId);
       // Refresh orders
       const userOrders = await orderService.getUserOrders();
       setOrders(userOrders);
-      alert('Order cancelled successfully!');
+      customAlert('Order cancelled successfully!');
     } catch (error) {
-      alert('Failed to cancel order: ' + error.message);
+      if (error.response?.status === 403) {
+        customAlert('You are not authorized to cancel this order.');
+      } else if (error.response?.status === 400) {
+        customAlert('Order cannot be cancelled - it may have already been shipped.');
+      } else {
+        customAlert('Failed to cancel order: ' + (error.response?.data?.message || error.message));
+      }
     } finally {
       setCancellingOrder(null);
     }
@@ -60,9 +69,9 @@ const Orders = () => {
       // Refresh orders
       const userOrders = await orderService.getUserOrders();
       setOrders(userOrders);
-      alert('Return request submitted successfully! We will contact you soon.');
+      customAlert('Return request submitted successfully! We will contact you soon.');
     } catch (error) {
-      alert('Failed to submit return request: ' + error.message);
+      customAlert('Failed to submit return request: ' + error.message);
     }
   };
 
@@ -130,8 +139,8 @@ const Orders = () => {
                       View Details
                     </button>
                     
-                    {/* Cancel Order - Only for Pending/Processing orders */}
-                    {(order.status === 'Pending' || order.status === 'Processing') && (
+                    {/* Cancel Order - Only for Pending/Processing orders, not shipped */}
+                    {(order.status === 'Pending' || order.status === 'Processing') && order.status !== 'Shipped' && order.status !== 'Delivered' && (
                       <button 
                         className="btn btn-outline-danger btn-sm"
                         onClick={() => handleCancelOrder(order.id)}
