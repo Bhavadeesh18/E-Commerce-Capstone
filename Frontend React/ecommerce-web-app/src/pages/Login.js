@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { useNavigate, Link } from 'react-router-dom';
 import { authService } from '../services/authService';
 import { loginSuccess, loginFailure } from '../redux/slices/authSlice';
+import { testBackendConnection, testLoginEndpoint } from '../utils/networkTest';
 
 const Login = () => {
   const [formData, setFormData] = useState({ email: '', password: '' });

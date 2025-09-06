@@ -3,11 +3,27 @@ import api from './api';
 export const authService = {
   // User login
   login: async (email, password) => {
-    const response = await api.post('/Auth/login', { email, password });
-    if (response.data.token) {
-      localStorage.setItem('token', response.data.token);
+    try {
+      console.log('Making login request to:', api.defaults.baseURL + '/Auth/login');
+      console.log('Login payload:', { email, password: '***' });
+      
+      const response = await api.post('/Auth/login', { email, password });
+      
+      console.log('Login response status:', response.status);
+      console.log('Login response data:', response.data);
+      
+      if (response.data.token) {
+        localStorage.setItem('token', response.data.token);
+      }
+      return response.data;
+    } catch (error) {
+      console.error('Login request failed:');
+      console.error('Error message:', error.message);
+      console.error('Error code:', error.code);
+      console.error('Response status:', error.response?.status);
+      console.error('Response data:', error.response?.data);
+      throw error;
     }
-    return response.data;
   },
 
   // User registration

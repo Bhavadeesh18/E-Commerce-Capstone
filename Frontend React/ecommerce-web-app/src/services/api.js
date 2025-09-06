@@ -1,26 +1,29 @@
 import axios from 'axios';
 
 // Base API configuration
-const isDocker = window.location.hostname !== 'localhost' || window.location.port === '3000';
-const API_BASE_URL = isDocker 
-  ? 'http://localhost:5000/api'    // Docker: backend exposed on host port 5000
-  : process.env.REACT_APP_API_URL || 'https://localhost:7167/api';  // Local development
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://localhost:7167/api';
 
 // Create axios instance
 const api = axios.create({
   baseURL: API_BASE_URL,
-  timeout: 10000,
+  timeout: 30000,
   headers: {
     'Content-Type': 'application/json',
   },
+  // Disable SSL verification for development
+  httpsAgent: process.env.NODE_ENV === 'development' ? {
+    rejectUnauthorized: false
+  } : undefined
 });
+
+console.log('API Base URL:', API_BASE_URL);
 
 // Add token to requests if available
 api.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem('token');
     if (token) {
-      config.headers.Authorization = token; // No Bearer prefix as per your backend
+      config.headers.Authorization = `Bearer ${token}`;
     }
     return config;
   },
